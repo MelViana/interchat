@@ -1,4 +1,4 @@
-package com.example.model;
+package com.example.controller;
 
 import java.beans.Statement;
 import java.sql.Connection;
@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.model.TopicosDeInteresse;
 import com.example.repositories.TopicosDeInteresseRepository;
 import com.example.repositories.UsuarioRepository;
 
